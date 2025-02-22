@@ -62012,7 +62012,7 @@ const y5 = /* @__PURE__ */ He({
         "w-full sm:grid sm:gap-4",
         {
           "grid-flow-col grid-cols-fit": !e.columns,
-          "py-0 px-0": !ve(n)
+          "py-test1 px-test1": !ve(n)
         }
       ]),
       style: ZT({ gridTemplateColumns: ve(s), alignItems: ve(i) })
@@ -62089,7 +62089,7 @@ const C5 = {
       ye("div", null, [
         (ie(), $e(bs(ve(r)[ve(n)].component), Ma(ve(r)[ve(n)].componentProps, {
           key: ve(r)[ve(n)].refId,
-          class: "py-4"
+          class: "py-test2"
         }), null, 16))
       ])
     ]));
@@ -62778,7 +62778,7 @@ const W9 = (t, e, r) => [
               ye("div", eG, [
                 (ie(!0), we(ar, null, Pr(ve(l), (b) => (ie(), $e(bs(b.component), Ma({
                   key: b.refId
-                }, b.componentProps, { class: "py-4" }), null, 16))), 128))
+                }, b.componentProps, { class: "py-test3" }), null, 16))), 128))
               ])
             ])
           ])
