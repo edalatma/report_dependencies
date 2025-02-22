@@ -62012,7 +62012,7 @@ const y5 = /* @__PURE__ */ He({
         "w-full sm:grid sm:gap-4",
         {
           "grid-flow-col grid-cols-fit": !e.columns,
-          "py-4 px-1": !ve(n)
+          "py-0 px-0": !ve(n)
         }
       ]),
       style: ZT({ gridTemplateColumns: ve(s), alignItems: ve(i) })
